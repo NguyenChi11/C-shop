@@ -1,0 +1,37 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 60px;
+  box-shadow: 0 1px 3px -2px #000;
+  margin-bottom: 1px;
+  background: #f8f8f8;
+}
+
+.navbar-logo {
+  width: 100px;
+}
+
+.navbar-avatar img {
+  width: 75px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: inline-block;
+  object-fit: cover;
+}
+
+.navbar-avatar i {
+  font-size: large;
+}
+
+@media (max-width: 800px) {
+  .navbar {
+    padding: 15px 30px;
+  }
+  .navbar-logo {
+    width: 80px;
+  }
+  .navbar-avatar {
+    width: 60px;
+  }
+}
